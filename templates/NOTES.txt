@@ -1,0 +1,6 @@
+Controller was created in namespace {{ .Release.Namespace }}
+
+Port 80 NodePort {{ .Values.httpport }}
+Port 443 NodePort {{ .Values.httpsport }}
+
+Ingress class name {{ .Values.className }}
