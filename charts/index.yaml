@@ -1,1 +1,14 @@
-Testtest
+apiVersion: v1
+entries:
+  nginx:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-07-14T23:25:51.848882+12:00"
+    description: A Helm chart for to deploy custom kubernetes nginx controller
+    digest: b1914b70de376ec3e2f8857904e55531ead54a9f68efe29e6cc965b1ecaf1a86
+    name: nginx
+    type: application
+    urls:
+    - nginx-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-07-14T23:25:51.848046+12:00"
